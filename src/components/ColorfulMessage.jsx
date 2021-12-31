@@ -1,8 +1,7 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   const { color, children } = props;
-
   const contentStyle = {
     // ES2015からのルールでkeyとvalueが同じ表記であった場合、片側は省略できる
     color,
@@ -16,5 +15,5 @@ const ColorfulMessage = (props) => {
     </>
   );
 };
-
-export default ColorfulMessage;
+// 下記のような記載ではなく、export const 関数のように直接設定することができる
+// export default ColorfulMessage;
