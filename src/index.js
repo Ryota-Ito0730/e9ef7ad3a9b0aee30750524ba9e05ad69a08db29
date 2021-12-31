@@ -1,4 +1,4 @@
-// JavaScriptの中でhtmlタグを記載し、returnしつつ描画していく記法をJSX記法と呼ぶ
+// JavaScriptの中でhtmlタグを記載し、 returnしつつ描画していく記法をJSX記法と呼ぶ
 // 必ずはじめに読み込む import React from "react";
 import React from "react";
 import ReactDom from "react-dom";
